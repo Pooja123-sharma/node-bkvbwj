@@ -6,3 +6,8 @@ array1.forEach(element => console.log(element));
 let birds = ['crow','parrot','sparrow'];
 birds.sort();
 console.log(birds);
+
+// find
+let num = [9,27,8,19,4];
+let result = num.find((x) => x > 20);
+console.log(result);
